@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Thin'), local('Lab-Grotesque-Thin'),
+        url('../../fonts/LabGrotesque-Thin.ttf') format('ttf'),
+        url('../../fonts/LabGrotesque-Thin.eot') format('eot'),
+        url('../../fonts/LabGrotesque-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Regular'), local('Lab-Grotesque-Regular'),
+        url('../../fonts/LabGrotesque-Regular.ttf') format('ttf'),
+        url('../../fonts/LabGrotesque-Regular.eot') format('eot'),
+        url('../../fonts/LabGrotesque-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Light'), local('Lab-Grotesque-Light'),
+        url('../../fonts/LabGrotesque-Light.ttf') format('ttf'),
+        url('../../fonts/LabGrotesque-Light.eot') format('eot'),
+        url('../../fonts/LabGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Medium'), local('Lab-Grotesque-Medium'),
+        url('../../fonts/LabGrotesque-Medium.ttf') format('ttf'),
+        url('../../fonts/LabGrotesque-Medium.eot') format('eot'),
+        url('../../fonts/LabGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Bold'), local('Lab-Grotesque-Bold'),
+        url('../../fonts/LabGrotesque-Bold.ttf') format('ttf'),
+        url('../../fonts/LabGrotesque-Bold.eot') format('eot'),
+        url('../../fonts/LabGrotesque-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans Headline';
+    src: local('Scania Sans Headline Regular'), local('Scania Sans Headline Regular'),
+        url('../../fonts/ScaniaSansCYHeadline-Regular.ttf') format('ttf'),
+        url('../../fonts/ScaniaSansCYHeadline-Regular.eot') format('eot'),
+        url('../../fonts/ScaniaSansCYHeadline-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans';
+    src: local('Scania Sans Regular'), local('Scania Sans Regular'),
+        url('../../fonts/ScaniaSansCY-Regular.ttf') format('ttf'),
+        url('../../fonts/ScaniaSansCY-Regular.eot') format('eot'),
+        url('../../fonts/ScaniaSansCY-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scania Sans';
+    src: local('Scania Sans Bold'), local('Scania Sans Bold'),
+        url('../../fonts/ScaniaSansCY-Bold.ttf') format('ttf'),
+        url('./../fonts/ScaniaSansCY-Bold.eot') format('eot'),
+        url('./../fonts/ScaniaSansCY-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,97 @@
+.footer__wrapper{
+    background-color: #121212;
+}
+.contact{
+    h2{
+        font-family: 'Lab Grotesque';
+        font-weight: 250;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 71px;
+        span{
+            background: linear-gradient(231.91deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0) 86.46%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+    padding-top: 72px;
+    padding-bottom: 66px;
+    min-height: 490px;
+    border-bottom: 1px solid #232323;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__social{
+        display: grid;
+        grid-template-columns: 153px 247px;
+        gap: 217px;
+        &__whatsapp{
+            margin-bottom: 50px;
+        }
+        &__mail{
+            margin-bottom: 50px;
+        }
+    }
+
+    &__descr{
+        font-family: 'Lab Grotesque';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 36px;
+        color: #949494;
+    }
+    
+    &__value{
+    font-family: 'Lab Grotesque';
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 33px;
+    color: #FFFFFF;
+    }
+
+    &__phone{
+        font-family: 'Lab Grotesque';
+        font-style: normal;
+        font-weight: 250;
+        font-size: 36px;
+        line-height: 33px;
+        color: #FFFFFF;
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+        &__phone{
+            margin-bottom: 61px;
+        }
+    }
+
+    &__button{
+        width: 279px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Lab Grotesque';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        border: 1px solid #CEB787;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+}
+
+.gold{
+    color: #FFCF7A;
+}
+.phone{
+    margin-bottom: 13px;
+}

@@ -1,0 +1,71 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 86px;
+    padding-bottom: 81px;
+    position: relative;
+
+    .header__logo{
+        display: flex;
+        align-items:center;
+        z-index: 201;
+        h3{
+            font-family: Scania Sans Headline;
+            margin-right: 34px;
+            font-weight: 400;
+            font-size: 20px;
+            letter-spacing: 0.105em;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        p{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            color: #6D6D6D;
+        }
+    }
+
+    .header__contacts{
+        display: flex;
+
+        menu{
+            display: flex;
+            gap: 44px;
+            a{
+                font-family: 'Lab Grotesque';
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 16px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #949494;
+                transition: 0.2s;
+                &:hover{
+                    color:#FFCF7A
+                }
+            }
+        }
+    
+        .header__phone{
+            width: 50px;
+            height: 50px;
+            background-color:#FFD9C4;
+            border-radius: 2px;
+            margin-left: 79px;
+            cursor: pointer;
+            @extend %flex-center;
+            z-index: 201;
+        }    
+    }
+
+    .header__hamburger{
+        display: none;
+    }
+}
+

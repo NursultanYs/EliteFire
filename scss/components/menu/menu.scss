@@ -1,0 +1,116 @@
+.menu{
+    font-family: 'Lab Grotesque';
+    display: grid;
+    grid-template-columns: 571px 539px;
+    gap: 84px;
+    position: relative;
+    margin-bottom: 106px;
+    h4{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    h5{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #757575;
+    }
+
+    &__indicator{
+        position: relative;
+        max-width: 468px;
+        margin-bottom: 19px;
+        border-bottom: 1px solid rgba(255, 207, 122, 0.72);
+    }
+    &__second-indicator{
+        width: 58px;
+        position: absolute;
+        border: 1px solid rgba(255, 207, 122, 0.72);
+        transform: rotate(55.49deg);
+        left: 471px;
+        top: 156px;
+    }
+
+    &__kamin{
+        margin-bottom: 38px;
+    }
+
+    &__variants{
+        h5{
+            margin-bottom: 12px;
+        }
+        .menu__items{
+            margin-bottom: 81px;
+        }
+    }
+
+    &__standart{
+        h5{
+            margin-bottom: 26px;
+        }
+        .menu__items{
+            margin-bottom: 102px;
+        }
+    }
+
+    &__items{
+        display: grid;
+        grid-template-columns: 239px 319px;
+        gap: 9px;
+    }
+
+    &__slider__images{
+        position: relative;
+    }
+
+    &__slide{
+        width: 100%;
+        height: 346px;
+        margin-top: 37px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__prev{
+        position: absolute;
+        top: 321px;
+        left: 38px;
+        cursor: pointer;
+    }
+    &__next{
+        position: absolute;
+        bottom:44px;
+        left: 71px;
+        cursor: pointer;
+    }
+
+}
+
+.first__column{
+    padding-top: 44px;
+}
+
+.sizes{
+    margin-bottom: 122px;
+}
+.second__column .first__text{
+    font-size:13px;
+}
+.second__column .third__heading{
+    line-height: 40px;
+}
+
+.menu__first__slider{
+    max-width: 537px;
+}

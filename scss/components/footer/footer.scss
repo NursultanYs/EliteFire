@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__info{
+        display: flex;
+        align-items:center;
+    }
+
+    &__date{
+        margin-right: 47px;
+    }
+
+    &__agreement{
+        cursor: pointer;
+    }
+
+    h3{
+        font-family: 'Scania Sans Headline';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 70px;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+        margin-right: 110px;
+        cursor: pointer;
+    }
+    p{
+        font-family: 'Lab Grotesque';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #6D6D6D;
+    }
+}

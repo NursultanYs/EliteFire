@@ -1,0 +1,85 @@
+.heading{
+    background-image: url(../../../images/firstkamin.png);
+    background-size: 720px 429px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom:242px;
+    position: relative;
+
+    &::before{
+        content:"";
+        position: absolute;
+        width: 201.18px;
+        height: 87.88px;
+        left: 808px;
+        top: 78px;
+        background: #FFCF7A;
+        filter: blur(50px);
+        border-radius: 500px;
+        transform: rotate(161.87deg);
+        z-index: 1;
+    }
+
+    &::after{
+        content:"";
+        position: absolute;
+        width: 390.34px;
+        height: 163.39px;
+        left: 762px;
+        top: 85px;
+        background: #A74E02;
+        filter: blur(100px);
+        border-radius: 500px;
+        transform: rotate(161.87deg);
+        z-index: 0;
+    }
+    h1{
+        font-family: 'Lab Grotesque';
+        font-style: normal;
+        font-weight: 250;
+        font-size: 64px;
+        line-height: 80px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 34px;
+        span{
+            background: linear-gradient(226.43deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 99.78%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+
+    &__price{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 40px;
+            letter-spacing: 0.05em;
+            color: #FFCF7A;
+            margin-bottom: 76px;
+
+            span{
+                font-size: 36px;
+                margin-left: 7px;
+            }
+    }
+
+    &__descr{
+        display: flex;
+        .heading__set{
+            @extend %flex-column-center;
+            img{
+                margin-bottom: 14px;
+            }
+        }
+        .heading__transfer{
+            @extend %flex-column-center;
+            img{
+                margin-bottom: 23px;
+            }
+            margin-left: 80px;
+        }
+    }
+}

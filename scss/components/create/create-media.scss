@@ -1,0 +1,158 @@
+@media (max-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1222px) { 
+    .create__columns{
+        grid-template-columns: 533px 547px;
+    }
+    .create__features__columns{
+        gap: 95px;
+    }
+ }
+
+@media (max-width: 1185px){
+    .create input[type=range]{
+        margin: 28px 15px 10px 15px;
+    }
+    .create__columns{
+        grid-template-columns: 533px 540px;
+    }
+    .create__features__columns{
+        display: block;
+    }
+    .create__price{
+        width: 80%;
+    }
+}
+
+@media(max-width:1170px){
+    .create__columns{
+        grid-template-columns: 480px 461px;
+    }
+    .create input[type=range]{
+        width: 250px;
+    }
+    .create .price__button{
+        width: 160px;
+    }
+    .create .price__info__price{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1050px){
+    .create__columns{
+        grid-template-columns: 480px 1fr;
+    }
+    .create input[type=range]{
+        width: 250px;
+    }
+}
+
+@media(max-width:951px){
+    .create__progress__range{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:926px){
+    .create__columns{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .create input[type=range]{
+        width: 416px;
+    }
+    .create__features__columns{
+        display: grid;
+    }
+}
+
+@media(max-width:866px){
+    .create input[type=range]{
+        width: 315px;
+    }
+}
+
+@media(max-width:553px){
+    .create h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .create__img{
+        margin-bottom: 30px;
+    }
+    .create__features__columns{
+        display: block;
+    }
+    .create__panel{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .create__features{
+        display: flex;
+        flex-direction: column;
+        .prop__name{
+            text-align: center;
+        }
+    }
+    .second__column__prop__name{
+        text-align: center;
+    }
+    .create__price{
+        width: 100%;
+    }
+
+    .create__columns{
+        gap: 30px;
+    }
+}
+
+@media (max-width:437px){
+
+    .create__property{
+        .prop__name{
+            font-size: 9px;
+            gap: 0;
+            justify-content: space-around;
+        }
+    }
+
+    .create__progress__range{
+        justify-content: center;
+    }
+    .create input[type="range"]{
+        width: 185px;
+    }
+}
+
+@media (max-width:380px){
+
+    .create__property{
+        gap: 0;
+        justify-content: space-around;
+    }
+    .checkmark{
+        left: 297px;
+    }
+}
+
+@media (max-width:343px){
+    .checkmark{
+        left: 276px;
+    }
+}
+
+@media (max-width:325px){
+    .checkmark{
+        left: 269px;
+    }
+}
